@@ -16,8 +16,7 @@ maven 'maven3.8.2'
   
   stage('Deploy'){
   steps{
-   sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@35.154.190.162:/opt/apache-tomcat-9.0.50/webapps/"    
-  }
+   
   }
   }
 
